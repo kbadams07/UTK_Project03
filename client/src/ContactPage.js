@@ -1,8 +1,6 @@
 import React, { useState } from "react";
-import "./ContactPage.css"; // optional separate css file if you want
 
 function ContactPage() {
-  // local state only (controlled component requirement)
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName]   = useState("");
   const [email, setEmail]         = useState("");
@@ -10,7 +8,6 @@ function ContactPage() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // For now just log it. In a real app you'd send to a server.
     console.log({
       firstName,
       lastName,
@@ -18,11 +15,14 @@ function ContactPage() {
       comments
     });
 
-    // reset after submit (nice touch, not required)
     setFirstName("");
     setLastName("");
     setEmail("");
     setComments("");
+
+    setsubmitted(true);
+
+    setTimeout(() => setsubmitted(false), 4000);
   };
 
   return (

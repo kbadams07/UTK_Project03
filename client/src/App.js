@@ -12,7 +12,7 @@ function App() {
 
   const [filter, setFilter] = useState("all"); // "all" | "completed" | "incomplete"
 
-  // functions to modify todos (we'll pass down as props):
+  // functions to modify todos
   const addTodo = (text) => {
     const newTodo = {
       id: Date.now(),
@@ -39,7 +39,7 @@ function App() {
       <div className="App">
         {/* NAVBAR (requirement: horizontal nav bar) */}
         <nav className="navbar">
-          <Link to="/todos" className="nav-link">Todos</Link>
+          <Link to="/todos" className="nav-link">To Dos</Link>
           <Link to="/contact" className="nav-link">Contact</Link>
         </nav>
 
