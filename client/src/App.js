@@ -5,7 +5,6 @@ import ContactPage from "./ContactPage";
 import "./App.css";
 
 function App() {
-  // We'll keep todo state here so it persists when navigating pages
   const [todos, setTodos] = useState([
     { id: 1, text: "Buy milk", completed: false },
     { id: 2, text: "Finish homework", completed: true }
