@@ -4,20 +4,25 @@ Name
 -Kennedy Adams
 
 Project Overview
--XXXX
+-React web app to submit, view, and track status of to do tasks. Feedback form is provided on the contact page.
 
 Functionality
--XXXX
+-Navigation between pages
+-Displays to do tasks
+-Allows users to create, delete, and change the status of tasks
+-Allows users to filter tasks by completion status
+-Allows user to submit feedback form
 
 Technologies Used
--XXXX
--XXXX
--XXXX
+-React
+-CSS
+-JavaScript
 
 Future Improvements
--XXX
--XXX
--XXX
+-Add due dates
+-Add calendar view
+-Add priority
+-Add other categories/labels/color coding
 
 
 User Stories
