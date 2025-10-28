@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/UTK_Project03/static/css/main.d454dc51.css",
+    "main.js": "/UTK_Project03/static/js/main.a1105b55.js",
+    "static/js/453.eb570f4f.chunk.js": "/UTK_Project03/static/js/453.eb570f4f.chunk.js",
+    "index.html": "/UTK_Project03/index.html",
+    "main.d454dc51.css.map": "/UTK_Project03/static/css/main.d454dc51.css.map",
+    "main.a1105b55.js.map": "/UTK_Project03/static/js/main.a1105b55.js.map",
+    "453.eb570f4f.chunk.js.map": "/UTK_Project03/static/js/453.eb570f4f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d454dc51.css",
+    "static/js/main.a1105b55.js"
+  ]
+}
