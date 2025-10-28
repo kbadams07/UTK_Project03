@@ -5,9 +5,11 @@ function ContactPage() {
   const [lastName, setLastName]   = useState("");
   const [email, setEmail]         = useState("");
   const [comments, setComments]   = useState("");
+  const [submitted, setSubmitted] = useState(false);
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    
     console.log({
       firstName,
       lastName,
@@ -22,7 +24,7 @@ function ContactPage() {
 
     setSubmitted(true);
 
-    setTimeout(() => setSubmitted(false), 4000);
+    setTimeout(() => {setSubmitted(false);}, 4000);
   };
 
   return (
@@ -71,6 +73,13 @@ function ContactPage() {
 
         <button type="submit">Send</button>
       </form>
+
+      {submitted && (
+        <p className="success-message">
+          ✅ Feedback submitted successfully!
+        </p>
+      )}
+      
     </div>
   );
 }
