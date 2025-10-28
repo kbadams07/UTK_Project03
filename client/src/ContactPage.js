@@ -20,9 +20,9 @@ function ContactPage() {
     setEmail("");
     setComments("");
 
-    setsubmitted(true);
+    setSubmitted(true);
 
-    setTimeout(() => setsubmitted(false), 4000);
+    setTimeout(() => setSubmitted(false), 4000);
   };
 
   return (
